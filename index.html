@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MyResume</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div class="portrait" style="background-image: url('static/image/heard.jpg');"></div>
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    <h3>请输入图片URL地址：</h3>
+                    <br/>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+                <h1 id="username" >李 霖</h1>
+                <h4 id="persona-tag" >Java | Web / DevOps</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">姓名</label><span class="label-value">李霖</span></li>
+                    <li>
+                        <label class="left-label">学历</label><span class="label-value">本科</span></li>
+                    <li>
+                        <label class="left-label">毕业院校</label><span class="label-value">江苏科技大学</span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手机</label><span class="label-value">15059668366</span></li>
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">eleven0229@gmail.com</span></li>
+                    <li>
+                        <label class="left-label">个人主页</label><span class="label-value">www.marcowatermelon.cn</span></li>
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value">github.com/ChristianLeonhard</span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">Java</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">HTML/CSS</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Javascript</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Python</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label">前端</label><span class="label-value">Bootstrap | 熟练| 27个月</br>Layui | 良好 | 20个月</br>EasyUI | 良好 | 20个月</br>Vue.js | 良好 | 10个月</br>React.js | 良好 | 10个月</br>Node.js | 良好 | 10个月</span>
+                    </li>
+                    <li>
+                        <label class="left-label">后端</label><span class="label-value">Spring套件 | 熟练 | 25个月</br>Hibernate | 熟练 | 36个月</br>Mybatis | 熟练 | 36个月</br>Shrio | 良好 | 9个月</br>Hadoop | 良好 | 9个月</br>Dubbo | 良好 | 7个月</br>Zookeeper | 良好 | 7个月</br>Spark | 良好 | 3个月</span>
+                    </li>
+                    <li>
+                        <label class="left-label">数据库</label><span class="label-value">MySQL | 熟练 | 36个月</br>Oracle | 良好 | 36个月</br>SQL Server | 良好 | 22个月</br>MariaDB | 熟练 | 12个月</br>PostgreSQL | 良好 | 7个月</br>Redis | 熟练 | 27个月</br>MongoDB | 良好 | 9个月</span>
+                    </li>
+					<li>
+                        <label class="left-label">工具和中间件</label><span class="label-value">Linux | 熟练 | 60个月</br>Tomcat | 熟练 | 36个月</br>SVN | 熟练 | 36个月</br>Maven | 熟练 | 30个月</br>Nginx | 熟练 | 18个月</br>Git | 熟练 | 16个月</br>IDEA | 熟练 | 12个月</br>WebStorm | 熟练 | 12个月</br>Jenkins | 熟练 | 12个月</br>ActiveMQ | 良好 | 9个月</br>RabbitMQ | 良好 | 9个月</br>Docker | 良好 | 4个月</br>Gradle | 良好 | 4个月</br>RocketMQ | 良好 | 3个月</br>Travis | 良好 | 3个月</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="code info-unit">
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
+                <hr>
+                <div class="weixin">
+                    <img src="static/image/weixin.png" alt="">
+
+                </div>
+            </div>
+            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>江苏科技大学 - 工商管理（本科）2016-2018</h3>
+                    </li>
+                     <li>
+                        <h3>福建信息职业技术学院 - 物联网应用（专科）2011-2014</h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>厦门圣美创达信息科技有限公司</h3>
+                        <p contenteditable="true"><span style="display: inline !important;">1、参与项目数据库开发，项目的规划以及需求分析；</span></p>
+                        <p contenteditable="true"><span style="display: inline !important;">2、负责项目的部分后台模块的代码编写及开发；</span></p>
+                        <p contenteditable="true"><span style="display: inline !important;">3、测试项目的功能等。</span></p>
+                    </li>
+                    <li>
+                        <h3>福州华信智原教育技术有限公司</h3>
+                        <p contenteditable="true"><span style="display: inline !important;">1、参与项目数据库开发，项目的规划以及需求分析；</span></p>
+                        <p contenteditable="true"><span style="display: inline !important;">2、负责项目的部分后台模块的代码编写及开发；</</span></p>
+                        <p contenteditable="true"><span style="display: inline !important;">3、测试项目的功能等。</span></p>
+	                    </li>
+                    <li>
+                        <h3>漳州联智信息科技有限公司</h3>
+                        <p contenteditable="true"><span style="display: inline !important;">1、负责系统平台开发、技术选型、概要设计、软件测试、上线部署等。</span></p>
+                        <p contenteditable="true"><span style="display: inline !important;">2、负责各项目服务器集群维护、部署等。</span></p>
+                        <p contenteditable="true"><span style="display: inline !important;">3、负责根据市场需求、营销方向开发系统。</span></p>
+                    </li>
+                    <li>
+                        <h3>国网信通亿力科技有限责任公司</h3>
+                        <p contenteditable="true"><span style="display: inline !important;">1、负责内网网管系统平台程序维护和新增功能二次开发；</span></p>
+                        <p contenteditable="true"><span style="display: inline !important;">2、协助完成日常服务运维、部署等工作，保证服务的稳定运行；</span></p>
+                        <p contenteditable="true"><span style="display: inline !important;">3、根据集团信息化建设要求完成信息系统开发；</span></p>
+                        <p contenteditable="true"><span style="display: inline !important;">4、对集团子公司业务需求进行调研、整理分析，形成需求分析报告；</span></p>
+                    </li>
+                </ul class="experience-list">
+            </div>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>基于Vue+iView的前端项目</h3>
+                        <p contenteditable="true">
+                        	<span style="background-color: rgb(255, 255, 255); display: inline !important;">项目地址：https://vfw.marcowatermelon.cn</span></br>
+                        	<span style="background-color: rgb(255, 255, 255); display: inline !important;">项目备用地址：http://106.14.115.121:8082/vfw</span>
+                    	</p>
+                    </li>
+                    <li>
+                        <h3>基于Vue+ElementUI的前端项目</h3>
+                        <p contenteditable="true">
+                        	<span style="background-color: rgb(255, 255, 255); display: inline !important;">项目地址：https://vms.marcowatermelon.cn</span></br>
+                        	<span style="background-color: rgb(255, 255, 255); display: inline !important;">项目备用地址：http://106.14.115.121:8082/vms</span>
+                    	</p>
+                    </li>
+                    <li>
+                        <h3>基于Vue+iView-Admin+Vue-Router+Vuex的前端项目</h3>
+                        <p contenteditable="true">
+                        	<span style="background-color: rgb(255, 255, 255); display: inline !important;">项目地址：https://watchdog.marcowatermelon.cn</span></br>
+                        	<span style="background-color: rgb(255, 255, 255); display: inline !important;">项目备用地址：http://106.14.115.121:8082/watchdog</span>
+                    	</p>
+                    </li>
+                    <li>
+                        <h3>基于SpringBoot+Shiro+Redis+Mybatis的后端项目</h3>
+                        <p contenteditable="true">
+                        	<span style="background-color: rgb(255, 255, 255); display: inline !important;">api接口地址：http://106.14.115.121:8083/watchdog</span>
+                    	</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="trophy info-unit">
+                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>Java软件工程师</h3>
+                        <p></p>
+                    </li>                  
+            </div>
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+                <hr>
+                <p>
+                    If you divide your life into two, the first half is called “no hesitation” and the second half is called “no regrets”. 
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
